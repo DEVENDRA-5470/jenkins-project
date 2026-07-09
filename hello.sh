@@ -6,4 +6,4 @@ echo "Date : $(date)"
 echo "Installing Updates"
 sudo apt update
 sudo apt install -y nginx
-nginx --version
+nginx -version
