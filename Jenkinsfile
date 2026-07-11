@@ -10,7 +10,7 @@ post {
   success {
     echo "Pipeline Pass "
     mail to : "info4work413@gmail.com",
-    subject : "SUCCESS",
+    subject : "SUCCESS : Job '${env.JOB_NAME}' ",
     body:"EMAIL WORKING"
   }
   failure {
